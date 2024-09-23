@@ -1,0 +1,19 @@
+
+
+
+<nav>
+<ul style="list-style-type: none; margin: 0; padding: 0; background-color: #333;">
+        <li style="display: inline;">
+            <!-- Use the {% url %} tag for the Home link -->
+            <a href="{% url 'home' %}" style="display: inline-block; color: white; text-align: center; padding: 14px 16px; text-decoration: none;">Home</a>
+        </li>
+        <li style="display: inline;">
+            <!-- Use the {% url %} tag for the My Posts link -->
+            <a href="{% url 'my_posts' %}" style="display: inline-block; color: white; text-align: center; padding: 14px 16px; text-decoration: none;">My Posts</a>
+        </li>
+        <li style="display: inline;">
+            <!-- Use the {% url %} tag for the Login link -->
+            <a href="{% url 'login' %}" style="display: inline-block; color: white; text-align: center; padding: 14px 16px; text-decoration: none;">Login</a>
+        </li>
+    </ul>
+</nav>
